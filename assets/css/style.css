@@ -303,10 +303,69 @@ header div:nth-child(3) a:last-child:hover {
   font-family: "FontAwesome";
 }
 
+.editor .wrapper {
+  max-width: 1516px; 
+  width: 100%;
+}
 
+.editor ul { 
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.editor li { 
+  border: 2px solid #000;
+  flex-basis: 100%;
+}
 
+.editor ul li div { 
+  width: 43%;
+  padding-top: 40px;
+  padding-left: 6%;
+  margin-top: 40px;
+  display: inline-block;
+}
 
+.editor-heading {
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.sub-heading {
+  color: #000;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.editor-text {
+  width: 80%;
+  color: #8E867E;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.editor ul li figure {
+  width: 50.6%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.editor ul li:nth-child(2) { flex-basis: 49%; }
+.editor ul li:nth-child(3) { flex-basis: 50.4%; }
+.editor ul li:nth-child(2) figure { width: 100%;}
+.editor ul li:nth-child(3) figure { width: 100%;}
+
+.editor ul li:nth-child(2) div,
+.editor ul li:nth-child(3) div { 
+  width: 70%;
+  padding: 40px 13% 48px;
+  margin-bottom: 50px;
+}
 
 
 

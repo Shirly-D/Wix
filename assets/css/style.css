@@ -530,8 +530,55 @@ footer .foot-heading {
   text-transform: uppercase;
 }
 
+footer div ul li,
+.foot-text {
+  color: #717997;
+  font-size: 16px;
+  text-transform: capitalize;
+}
 
+footer div ul { margin-top: 20px; }
+footer div:nth-child(4) span:first-child { margin-top: 0; }
 
+footer div:nth-child(4) span { 
+  margin-top: 20px;
+  display: block;
+}
+
+footer div li {
+  margin-bottom: 12px;
+  display: block;
+}
+
+footer div:nth-child(5) figure { 
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+footer p { margin-bottom: 20px; } 
+
+footer div:nth-child(5) ul { 
+  display: flex; 
+  justify-content: space-between;
+}
+
+footer div:nth-child(5) ul li {flex-basis: 7%;}
+footer div:nth-child(5) ul li a { text-indent: -9999px; }
+
+footer div:nth-child(5) ul li a::before {
+  float: right;
+  font-family: "FontAwesome";
+  font-size: 20px;
+  text-indent: 0;
+}
+
+footer .facebook::before { content: "\f09a";}
+footer .twitter::before { content: "\f099";}
+footer .google::before { content: "\f0d5";}
+footer .youtube::before { content: "\f16a";}
+footer .pinterest::before { content: "\f231";}
+footer .instagram::before { content: "\f16d";}
+footer .linkedin::before { content: "\f0e1";}
 
 
 
